@@ -1,0 +1,319 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Index</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body>
+    <h1>JavaScript Practice</h1>
+    <ul>
+        <li>
+            <a href="index.html#title1">Title1</a>
+            <a href="index.html#title2">Title2:AJAX</a>
+            <a href="index.html#title3">Title3</a>
+            <a href="example.html#title4">Title4</a>
+            <a href="example.html#title5">Title5</a>
+            <a href="example.html#title6">Title6</a>
+        </li>
+    </ul>
+    <h2 id="title1">Title1</h2>
+    <p>有一天，數量為<em id="monsternumber"></em>的怪物出現了，他們想吃東西，但沒錢，於是找到了一間一塊麵包賣<em id="breadprice"></em>的麵包店。那些怪物的名字叫做<em
+            class="monstername"></em>，他們常說<em id="monstergreeting-1"></em>或就只是<em id="monstergreeting-2"></em>。</p>
+    <p>接著，一個叫做<em id="uniquemonstername"></em>的<em class="monstername"></em>同樣來到了店前，他看了一下自己的口袋，發現身上只有<em id="money"></em>元，還差<em
+            id="balance"></em>元。而若他想買 10 個，就還差<em id="10timesbalance"></em>元。</p>
+    <p>　　</p>
+    <p><em class="monstername"></em>說：先生你好，一個角 10 元，一個頭 50 元，請問你要幾個角和幾顆頭？</p>
+    <p>我說：你好，我要 <input type="number" placeholder="角" id="hornnumber"> 和 <input type="number" placeholder="頭" id="headnumber">，請問這樣多少？
+        <button id="calculationheadandhorn">計算</button></p>
+    <p><em class="monstername"></em>說：這樣總共<em id="calculationresult"></em>，感謝！</p>
+    <p>　　</p>
+    <h3>Book Shop</h3>
+    <p>請輸入您的出生月份 ( 數字 )，我們要確認您是否為12月的當月壽星。<input type="number" id="birthday"><button id="birthdaybutton">確認</button></p>
+    <p>顧客：<em id="birthdaycheckresponse"></em></p>
+    <p>您預定 5 個人來逛，而現在只有<input type="number" id="peoplenumber">，所以人還沒到齊對嗎？<button id="peoplenumberverify">確認</button></p>
+    <p>顧客：<em id="peoplenumbercheckresponse"></em></p>
+    <p>　　</p>
+    <p>服務生：你好，我們現在滿 1000 消費或有 VIP 資格，就可以到波蘭玩十年喔！請你輸入一下你的消費金額<input type="number" id="expense">與是否有 VIP 資格<select name="andcheck"
+            id="vip">
+            <option value="有">有</option>
+            <option value="無">無</option>
+        </select><button id="andcheck">確認</button></p>
+    <P>顧客：<em id="andresponse"></em></P>
+    <p>服務生，阿先生不好意思，現在有要具有其中一項資格就能去波蘭玩十年了！請再確認一下您的金額<button id="orcheck">確認</button>。</p>
+    <p>顧客：<em id="orresponse"></em></p>
+    <p>　　</p>
+    <p>廚師：1 到 10 分，你幾分飽？ <input type="number" id="fulldegree"> <input id="fulldegreebutton" type="button" value="告知"></p>
+    <p>廚師：喔，你是 <em id="fulldegreeannounce"></em> 分飽，請你吃 <em id="fulldegreechoice"></em> 啦！</p>
+    <p>　　</p>
+    <p>警衛：大人，敵軍來襲，請發布警戒！<select name="alertdegree" id="alertdegree">
+            <option value="red">紅色警戒</option>
+            <option value="blue">藍色警戒</option>
+            <option value="yellow">黃色警戒</option>
+            <option value="orange">橘色警戒</option>
+        </select> <input type="button" value="確認發布" id="alertbutton"></p>
+    <p>警衛：<em id="alertwarning"></em></p>
+    <p>　　</p>
+    <p>
+        網管：先生我已將以下連結改為連到 <em id="yahooshort"></em> 首頁了，請再看看。
+        <ul>
+            <li>
+                <a href="#" class="yahoo">ABC</a>
+                <a href="#" class="yahoo">123</a>
+                <a href="#" class="yahoo">ㄅㄆㄇ</a>
+                <a href="#" class="yahoo">!@#</a>
+                <a href="#" class="yahoo">\\\</a>
+            </li>
+        </ul>
+    </p>
+    <p>　　</p>
+    <p>守門人：我說 <input type="text" id="get-example-input-id" class="get-example-input-class" value="get-example-input-value">
+        和 <em class="get-example-text-class" id="get-example-text-id">get-example-text-text</em>。</p>
+    <p>　　</p>
+    <p>
+        <p id="innerhtmltest">
+            原本的內容
+        </p>
+    </p>
+    <p>　　</p>
+    <p>
+        <p id="innerhtmltest2"></p>
+    </p>
+    <p>　　</p>
+    <p>
+        <ul class="innerhtmlforadding">
+            原本的內容
+        </ul>
+    </p>
+    <p>　　</p>
+    <p>
+        <ul class="createlementtest">原本的內容</ul>
+    </p>
+    <p>　　</p>
+    <p>
+        <input type="button" value="事件獲取資訊" class="btn"><br>
+        <input type="button" value="onclick" class="btn-on">
+        <input type="button" value="add-click" class="btn-add">
+    </p>
+    <p>　　</p>
+    <p>
+        <div class="outter">
+            <div class="inner"></div>
+        </div>
+    </p>
+    <p>　　</p>
+    <p><a href="www.yahoo.com.tw" id="preventDefault">不要執行的a連結</a></p>
+    <p>　　</p>
+    <p>
+        使用下拉式選單選擇區域，選擇到的地區將會顯示在下方。
+        <select name="area" id="area">
+            <option value="red">red</option>
+            <option value="blue">blue</option>
+            <option value="yellow">yellow</option>
+            <option value="green">green</option>
+        </select>
+        <ul id="list"></ul>
+    </p>
+    <p>　　</p>
+    <p>輸入值不可為空：<input type="text" id="blurtesttext"> <input type="button" value="送出" id="blurtestsub"></p>
+    <p>　　</p>
+    <p>
+        js mousemove 事件，以及 css 的 animation:fontbulger;
+        <div class="relative frame">
+            <div class="box box1"></div>
+            <div class="box box2"></div>
+            <div class="box box3"></div>
+            <div class="box box4"></div>
+            <div class="box box5"></div>
+            <div class="box box6"></div>
+        </div>
+    </p>
+    <p>　　</p>
+    <p>
+        <div class="frame"></div>
+    </p>
+    <p>　　</p>
+    <p>
+        點擊以下元素，只有 li 顯示東西。
+        <div class="frame">
+            <ul>
+                <a href="#">Link</a>
+                <li>ABC</li>
+                <li>DEF</li>
+                <h2>XYZ</h2>
+            </ul>
+        </div>
+    </p>
+    <p>　　</p>
+    <p>
+        <h3>請輸入您的姓名：</h3>
+        <input type="text" class="inputname">
+        <input type="button" class="btnsub" value="存入 LocalStorage">
+        <input type="button" class="btncall" value="呼叫 LocalStorage">
+        <ul class="showLS"></ul>
+    </p>
+    <p>　　</p>
+    <p>
+        <ul>
+            <li class="data" data-fire="one" data-water="two">Fire and Water</li>
+        </ul>
+    </p>
+    <p>　　</p>
+    <p>
+        <ul class="board" style="width:200px;border:1px solid blanchedalmond;">
+
+        </ul>
+    </p>
+    <p>
+        <ul class="boardsplice" style="width:200px;border:1px solid blanchedalmond;">
+
+        </ul>
+    </p>
+    <p>　　</p>
+    <p>
+        <h3>To Do List</h3>
+        <input type="text" class="todotext" required>
+        <input type="button" value="Add" class="todobtn">
+        <ul class="todolist">
+
+        </ul>
+    </p>
+    <p>　　</p>
+    <p>
+        <input type="button" value="下一頁" class="forwardbtn">
+        <script>
+            // 
+            // BOM，Browser Object Model，瀏覽器元件
+            // 
+            var forwardbtn = document.querySelector('.forwardbtn');
+
+            forwardbtn.addEventListener('click', function () {
+                window.history.forward();
+            })
+        </script>
+    </p>
+    <p>　　</p>
+    <p>
+        <input type="button" value="列印" id="print">
+        <input type="button" value="瀏覽 Location 資訊" id="location">
+        <input type="button" value="轉址至 Google" id="open">
+    </p>
+    <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Quos tempore necessitatibus hic debitis quisquam,
+        optio cupiditate adipisci reiciendis sint laboriosam maxime ipsam ullam dolores modi harum et consequuntur
+        dignissimos autem. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sunt vel explicabo corporis
+        inventore, molestiae natus nesciunt iure neque esse maxime odio delectus aperiam repellat iusto cum quasi illo
+        ipsam necessitatibus iste, omnis nostrum nemo. Officia fugiat at sunt impedit maiores culpa nisi enim dolorum
+        vero tenetur! Corporis voluptatibus iste delectus? Lorem ipsum dolor, sit amet consectetur adipisicing elit.
+        Ratione ullam ab possimus recusandae? Doloribus praesentium pariatur aliquid quasi debitis recusandae
+        accusantium enim amet est veniam fuga magni iusto quam sed, eligendi exercitationem velit omnis eum dolorem
+        magnam aperiam dignissimos in! Assumenda, quod, possimus nihil vel quos facere vitae enim debitis molestiae
+        reprehenderit et cupiditate dolorum error culpa labore rerum odio, similique commodi reiciendis sequi molestias
+        fuga! Nihil perspiciatis totam, voluptatem itaque tempore eos vel, praesentium cupiditate similique tempora id
+        sit temporibus laudantium possimus? Perferendis tempore et temporibus, rem quia cupiditate pariatur corporis
+        consequuntur dolores quibusdam voluptate in aut eaque! Mollitia est ea blanditiis ex, eveniet repellendus quam
+        exercitationem id vel magnam excepturi reiciendis, quos minus amet. Similique ipsam tempora aperiam odio
+        voluptatibus vero quisquam. Qui nam perferendis quo tenetur saepe esse laudantium sed consequatur autem
+        quisquam accusantium eos error nihil, obcaecati sit quis officia dolorem quos officiis beatae rem accusamus
+        voluptatem incidunt commodi. Iure earum voluptatum quibusdam molestiae modi numquam tempora sit? At ut odit
+        consectetur, exercitationem sed optio! Tempora suscipit voluptate perspiciatis vero assumenda consequuntur, qui
+        ut optio repudiandae. Impedit placeat fugit quos saepe magnam quaerat quas sequi eveniet eum repellat optio
+        asperiores quam ut cupiditate deleniti at aliquam temporibus, corrupti iste molestiae quidem beatae culpa
+        quisquam? Facere reiciendis assumenda dolore corrupti libero! Culpa vitae esse similique consequuntur error
+        quidem, quos architecto nemo aut quia et accusamus dolore expedita deleniti magni incidunt fuga pariatur.</p>
+    <h2 id="title2">Title2:AJAX</h2>
+    <div class="showjson"></div>
+    <form action="index.html">
+        帳號：
+        <input type="text" name="account">
+        <br>
+        密碼：
+        <input type="password" name='password'>
+        <br>
+        <input type="submit" value='送出'>
+    </form>
+    <p>voluptate vero aut pariatur corporis voluptatibus culpa, tempore fugiat commodi eius eos natus error nihil
+        doloribus nesciunt iste asperiores? In quam tempora officia facilis ipsam inventore quia libero. Reiciendis
+        fugit beatae in sint voluptas dolore voluptates, ducimus veniam ipsum quam nam sequi aut, magni ad deserunt
+        officiis dignissimos! Distinctio maiores eveniet nam libero similique debitis hic tempora blanditiis quidem,
+        eligendi ducimus delectus labore qui aperiam laudantium et inventore! Eius hic a perferendis quibusdam iste
+        aspernatur obcaecati aut praesentium mollitia! Maiores sit est dolorum nostrum, quidem iure enim reprehenderit.
+        Consequatur deserunt deleniti ullam ea, quas fugiat saepe eius totam ipsa nesciunt itaque fugit non voluptatem
+        illo, velit quasi adipisci necessitatibus dolores atque, quo quisquam excepturi? Atque nihil hic possimus? Unde
+        a sint officia, dolorum obcaecati quas culpa nemo dolor atque consequuntur eaque laudantium nihil? Quo quasi
+        possimus quod inventore iusto eius voluptatem, sed sit distinctio magni magnam numquam, cum optio. Amet earum
+        est voluptas ullam, impedit doloribus. Adipisci officia fugiat, sint iure natus ullam. Qui quaerat nam quisquam
+        excepturi, deserunt ad, minima magnam ex id unde corrupti explicabo sed itaque soluta voluptate consectetur
+        nisi, cum aspernatur pariatur tempora rem ipsa! Repellat similique delectus commodi explicabo dolorum molestiae
+        quam. Veritatis necessitatibus laborum illum, aut provident architecto dolorum error tempora expedita incidunt
+        quis? Repellat odit cumque voluptates? Assumenda sunt amet, quis nam tempora vel. Ex maiores temporibus id
+        possimus fugiat quia molestias veritatis repellat nobis eum! Amet vero quaerat tempore quam in provident,
+        voluptas recusandae animi eveniet saepe reprehenderit molestias aliquam perferendis veniam quibusdam quasi
+        maxime nulla dicta velit, dolorum autem ullam mollitia ex labore. Vel nesciunt, aspernatur provident iusto,
+        error voluptas dolores sit minus ut laboriosam eum sint reiciendis corrupti quasi deserunt amet, quae impedit
+        ipsum consectetur natus quisquam numquam! Iste dolorem a quaerat mollitia soluta accusamus voluptas, hic,
+        culpa, architecto aperiam ullam pariatur eum expedita fuga? Accusantium esse non nostrum vitae nisi voluptates,
+        consequatur, quibusdam cuidunt modi iusto eum ullam
+        facere in aliquid molestiae eos quod nesciunt facilis fugiat suscipit vitae amet. Excepturi praesentium sit
+        enim sequi delectus officia laudantium, similique quae aliquid blanditiis odio, incidunt dolorem facere
+        recusandae optio natus labore veniam deserunt! Magni aliquid adipisci facilis assumenda quidem, maiores quis at
+        mollitia aperiam est. Ducimus veniam nam voluptatum! Error optio nemo vel voluptate earum ipsa tenetur tempora
+        dolores ipsam. Dignissimos repellat facere voluptates quibusdam! Distinctio animi, aliquid voluptatum
+        voluptates in ad, totam dolorem eius accusantium ratione molestiae iste maiores quod ducimus praesentium. Quo
+        modi assumenda expedita veritatis perferendis, iure animi nesciunt labore consequuntur tempora excepturi aut
+        nobis libero, explicabo ea deleniti a! Eum beatae accusantium, voluptate earum neque ea, repellendus eveniet
+        dolore dolorum nostrum quisquam, esse vel cumque inventore sint commodi ex veritatis? Molestias error
+        laudantium excepturi, obcaecati quo, saepe sed ad suscipit necessitatibus omnis amet vero! Placeat amet iste
+        quidem rerum, odit excepturi in ipsum neque doloremque esse, ea voluptatibus accusantium nesciunt, dolorem
+        atque saepe reiciendis nulla obcaecati. Sit, libero aut dolores vero maiores distinctio modi quae totam vel
+        illo alias, numquam corporis molestiae autem ab a cumque deleniti laborum suscipit nisi est quo. Ipsa cum nemo
+        quo. Tempora quod quo omnis, laborum harum quidem exercitationem culpa ab numquam molestiae. Eligendi nobis rem
+        animi. Non, nostrum deleniti, nisi sequi deserunt impedit obcaecati similique illum mollitia unde voluptatibus
+        tempore minima! Ratione autem atque consequuntur! Excepturi enim incidunt iure exercitationem cum nobis
+        perspiciatis quas amet magni expedita architecto aliquam fugiat dolorum ab repellendus beatae voluptates est
+        aperiam magnam natus odio, voluptatibus corrupti molestias. Eveniet voluptas maxime, consequatur quo excepturi
+        autem qui iure cupiditate, at enim alias optio harum quisquam ipsam. Quo dolor soluta tenetur, minima omnis hic
+        reiciendis.</p>
+    <h2 id="title3">Title3</h2>
+    <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Quos tempore necessitatibus hic debitis quisquam,
+        optio cupiditate adipisci reiciendis sint laboriosam maxime ipsam ullam dolores modi harum et consequuntur
+        dignissimos autem. Lorem ipsum dolor sit amet consectetur adipisicing elit. Natus in ea doloribus modi illo
+        repudiandae. Cumque assumenda similique atque laudantium et velit quos placeat impedit quae voluptas, sunt
+        perspiciatis? Laborum eum itaque sapiente eligendi placeat. Consequuntur placeat non, aperiam alias, voluptate
+        possimus obcaecati corpoolorem placeat fuga reiciendis
+        commodi ad ipsum. Mollitia doloremque nam maiores ipsam dolorem. Similique quia, optio esse quae alias
+        voluptate nostrum quis fugit? Autem nam enim atque obcaecati qui velit blanditiis eius vel quis doloremque?
+        Laboriosam sint omnis voluptate labore porro praesentium maiores nisi animi ab expedita molestias totam a iure
+        officia aut incidunt exercitationem ex quos architecto consequatur ipsam magni, reiciendis blanditiis nam?
+        Nesciunt aspernatur, omnis similique aliquid ipsum dolorem voluptates, voluptas sequi obcaecati tempore
+        explicabo fugit natus accusamus repellendus suscipit ea earum ullam, sunt magni eum sed inventore delectus?
+        Sint ratione facilis reiciendis obcaecati quaerat sit odit non! Eius veniam, recusandae dicta vel odit quos
+        neque, necessitatibus nam sit voluptatum voluptas explicabo officia cumque. Laudantium alias tenetur qui
+        dolorem deserunt quam numquam maiores, ad reprehenderit. Sapiente labore modi consequatur optio eum minima
+        quia, voluptas perferendis nemo odit necessitatibus ipsum quas cum. Consequuntur, praesentium, molestiae
+        adipisci tempora, perspiciatis beatae veniam voluptas rem iusto maxime temporibus similique quos cupiditate
+        dolor quod ab et itaque exercitationem quia libero quae neque delectus nisi. Quasi doloremque perferendis in
+        ipsam sint facere ad. Voluptatum sequi eaque similique, amet rem odit iste quia quaerat modi corporis ducimus
+        qui dicta minima ullam eligendi, delectus officiis dolor corrupti ipsa. Illum, aliquam blanditiis? Enim quas,
+        cupiditate excepturi, vel quae in, ab est minima reprehenderit voluptatum animi qui. Nam asperiores ducimus
+        iure? Maxime id ea dolorum eligendi quo suscipit facilis rerum est, eius, itaque odio adipisci cumque vitae
+        aliquam assumenda? Velit possimus magni molestiae quia cumque nisi voluptas cum neque! Sint laboriosam iusto
+        expedita ad porro maiores cum, debitis veritatis neque voluptatem unde soluta ab, ut repellat culpa.
+        Cupiditate, beatae cumque natus excepturi fugit eos eum maiores, culpa nobis ipsam suscipit laboriosam sed qui
+        animi quisquam architecto velit et possimus hic impedit adipisci! Iste delectus consequatur commodi odio. Nisi
+        dolores repellendus quos provident incidunt facilis vero sequi dicta asperiores porro excepturi, necessitatibus
+        totam odit alias exercitationem libero corrupti, harum placeat ex cupiditate illo perferendis illum! Nobis
+        quibusdam voluptatibus facilis soluta voluptatem qui iure! Molestias doloremque distinctio minus, inventore
+        quidem eum sed accusamus illum assumenda mollitia repellendus maiores asperiores sapiente, repellat, harum
+        corporis temporibus? Quibusdam consectetur veniam repudiandae dolor, sed quos. Numquam aliquam quasi
+        reprehenderit placeat hic est qui repellendus, laboriosam magnam adipisci cumque harum dolor necessitatibus
+        soluta. Ullam fugiat fuga iusto! Aliquam ut libero, obcaecati magni fugit soluta quo. Provident obcaecati
+        officia molestiae labore odio unde in maiores rem. Rem, distinctio.</p>
+    <script src="js/all.js"></script>
+    <script src="js/localstorge.js"></script>
+</body>
+
+</html>
